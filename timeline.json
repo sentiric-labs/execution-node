@@ -1,0 +1,16 @@
+{
+  "timeline":[
+    {
+      "scene_id": 1,
+      "duration_seconds": 5,
+      "voiceover_text": "Kendi kararlarını verdiğini mi sanıyorsun? Yanılıyorsun.",
+      "visual_prompt": "Cinematic close-up of a human eye with glowing blue data streams, cyberpunk, dark background, highly detailed"
+    },
+    {
+      "scene_id": 2,
+      "duration_seconds": 6,
+      "voiceover_text": "Sen tıklamadan önce algoritma senin ne seçeceğini çoktan hesapladı.",
+      "visual_prompt": "Macro shot of a glowing server rack in a dark room, flashing lights, matrix code, cinematic lighting"
+    }
+  ]
+}

@@ -141,3 +141,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+node_modules/
+temp/
+output/
+*.mp4
+*.mp3
+*.jpg
