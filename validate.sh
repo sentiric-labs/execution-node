@@ -1,0 +1,1 @@
+ffprobe -v error -show_entries stream=codec_type -of default=noprint_wrappers=1:nokey=1 output/WL_FINAL_BURAYA_ISIM_GELECEK.mp4

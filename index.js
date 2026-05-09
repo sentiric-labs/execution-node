@@ -49,23 +49,26 @@ async function generateAudio(text, filepath) {
 }
 
 // Sahneyi (Resim + Ses) MP4'e Çevirme
+// Sahneyi (Resim + Ses) MP4'e Çevirme
 async function createSceneVideo(imagePath, audioPath, outputPath) {
     console.log(`🎬 [RENDER] Sahne birleştiriliyor: ${path.basename(outputPath)}`);
     return new Promise((resolve, reject) => {
         ffmpeg()
             .input(imagePath)
             .inputOptions([
-                '-loop 1',         // Resmi sonsuz bir video gibi oynat
-                '-framerate 30'    // 30 FPS (YouTube Standardı)
+                '-loop 1',
+                '-framerate 30'
             ])
             .input(audioPath)
             .outputOptions([
+                '-map 0:v:0',      // Görüntüyü birinci girdiden (resim) al
+                '-map 1:a:0',      // Sesi ikinci girdiden (mp3) al
                 '-c:v libx264',
                 '-tune stillimage',
                 '-c:a aac',
                 '-b:a 192k',
                 '-pix_fmt yuv420p',
-                '-shortest'        // Sesin bittiği salise videoyu kes (Çok Kritik!)
+                '-shortest'
             ])
             .save(outputPath)
             .on('end', resolve)
