@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/sentiric-labs/execution-node#readme",
   "dependencies": {
+    "@grpc/grpc-js": "^1.14.3",
+    "@grpc/proto-loader": "^0.8.1",
     "axios": "^1.16.0",
     "edge-tts": "^1.0.1",
     "fluent-ffmpeg": "^2.1.3"

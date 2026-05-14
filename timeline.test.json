@@ -1,0 +1,64 @@
+{
+  "timeline": [
+    {
+      "scene_id": 1,
+      "duration_seconds": 6,
+      "voiceover_text": "Every morning, before you even open your eyes, the internet already knows who you are.",
+      "visual_prompt": "Dark cinematic bedroom illuminated by phone notifications, soft blue light, realistic atmosphere, highly detailed"
+    },
+    {
+      "scene_id": 2,
+      "duration_seconds": 6,
+      "voiceover_text": "Your searches, your likes, your pauses... every action leaves a trace.",
+      "visual_prompt": "Close-up of social media icons floating around a person, digital particles, futuristic cyber aesthetic"
+    },
+    {
+      "scene_id": 3,
+      "duration_seconds": 7,
+      "voiceover_text": "But this isn't just data anymore. It's prediction.",
+      "visual_prompt": "Massive AI neural network visualisation with glowing connections, dark background, cinematic lighting"
+    },
+    {
+      "scene_id": 4,
+      "duration_seconds": 6,
+      "voiceover_text": "Algorithms study your behaviour thousands of times faster than any human ever could.",
+      "visual_prompt": "Fast-moving streams of code surrounding a human silhouette, futuristic sci-fi environment"
+    },
+    {
+      "scene_id": 5,
+      "duration_seconds": 7,
+      "voiceover_text": "They know what captures your attention... and what controls your emotions.",
+      "visual_prompt": "Extreme close-up of eyes reflecting social media feeds and advertisements, dramatic contrast"
+    },
+    {
+      "scene_id": 6,
+      "duration_seconds": 6,
+      "voiceover_text": "The videos you watch are not random. Neither are the opinions you see.",
+      "visual_prompt": "Infinite scrolling social media feed in a dark void, cinematic perspective, neon highlights"
+    },
+    {
+      "scene_id": 7,
+      "duration_seconds": 7,
+      "voiceover_text": "Every recommendation is designed to keep you connected for just a little longer.",
+      "visual_prompt": "Person trapped inside a glowing digital cage made of app icons and notifications, cyberpunk style"
+    },
+    {
+      "scene_id": 8,
+      "duration_seconds": 6,
+      "voiceover_text": "And while you consume content... the system consumes you.",
+      "visual_prompt": "Dark futuristic server room absorbing streams of human data, cinematic sci-fi atmosphere"
+    },
+    {
+      "scene_id": 9,
+      "duration_seconds": 5,
+      "voiceover_text": "The real question is not whether you're being watched.",
+      "visual_prompt": "Single camera lens slowly zooming in from darkness, ominous cinematic mood"
+    },
+    {
+      "scene_id": 10,
+      "duration_seconds": 6,
+      "voiceover_text": "The question is... how much of your life is being programmed?",
+      "visual_prompt": "Human silhouette dissolving into digital code, dramatic cyberpunk lighting, ultra detailed"
+    }
+  ]
+}
